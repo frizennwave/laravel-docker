@@ -1,0 +1,27 @@
+# Laravel
+src/.env
+src/vendor/
+src/node_modules/
+src/storage/app/public/*
+src/storage/logs/*
+src/bootstrap/cache/*
+src/.phpunit.result.cache
+
+# Jangan ignore .gitkeep (untuk track folder kosong)
+!src/.gitkeep
+
+# Docker
+.docker-volumes/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Backup files
+*.sql.bak
+backup_*.sql
