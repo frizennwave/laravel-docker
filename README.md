@@ -56,7 +56,7 @@ Pastikan sudah terinstall:
 
 ```bash
 # 1. Clone atau download project ini
-git clone <url-project> laravel-docker
+git clone https://github.com/frizennwave/laravel-docker.git
 cd laravel-docker
 
 # 2. Install Laravel + jalankan semua container
