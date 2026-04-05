@@ -302,3 +302,11 @@ tail -f src/storage/logs/laravel.log  # Log Laravel
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+**Thanks for visiting! Drop a ⭐ if you find something useful.**
+
+</div>
