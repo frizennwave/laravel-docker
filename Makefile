@@ -45,6 +45,7 @@ install:
 	@rm -f src/.gitkeep
 	docker compose exec app composer create-project laravel/laravel . --prefer-dist
 	cp .env.example src/.env
+	docker compose exec app php artisan config:clear
 	docker compose exec app php artisan key:generate
 	docker compose exec app php artisan migrate
 	@echo ""
